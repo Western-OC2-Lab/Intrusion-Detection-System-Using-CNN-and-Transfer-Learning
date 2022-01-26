@@ -4,45 +4,52 @@ This is the code for the paper entitled "**[A Transfer Learning and Optimized CN
 Authors: Li Yang and Abdallah Shami  
 Organization: The Optimized Computing and Communications (OC2) Lab, ECE Department, Western University
 
-This repository also introduces **concept drift definitions** and **online machine learning methods** for **data stream analytics** using the **[River](https://riverml.xyz/dev/)** library.  
-Another **tutorial code** for **concept drift, online machine learning, and data stream analytics** can be found in: [OASW-Concept-Drift-Detection-and-Adaptation](https://github.com/Western-OC2-Lab/OASW-Concept-Drift-Detection-and-Adaptation)
-
-
+This repository introduces how to use convolutional neural networks (CNNs) and transfer learning techniques to develop intrusion detection systems.
 
 ## Abstract of The Paper
-As the number of Internet of Things (IoT) devices and systems have surged, IoT data analytics techniques have been developed to detect malicious cyber-attacks and secure IoT systems; however, concept drift issues often occur in IoT data analytics, as IoT data is often dynamic data streams that change over time, causing model degradation and attack detection failure. This is because traditional data analytics models are static models that cannot adapt to data distribution changes. In this paper, we propose a Performance Weighted Probability Averaging Ensemble (PWPAE) framework for drift adaptive IoT anomaly detection through IoT data stream analytics. Experiments on two public datasets show the effectiveness of our proposed PWPAE method compared against state-of-the-art methods.
+Modern vehicles, including autonomous vehicles and connected vehicles,  are increasingly connected to the external world, which enables various functionalities and services. However, the improving connectivity also increases the attack surfaces of the Internet of Vehicles (IoV), causing its vulnerabilities to cyber-threats. Due to the lack of authentication and encryption procedures in vehicular networks, Intrusion Detection Systems (IDSs) are essential approaches to protect modern vehicle systems from network attacks. In this paper, a transfer learning and ensemble learning-based IDS is proposed for IoV systems using convolutional neural networks (CNNs) and hyper-parameter optimization techniques. In the experiments, the proposed IDS has demonstrated over 99.25% detection rates and F1-scores on two well-known public benchmark IoV security datasets: the Car-Hacking dataset and the CICIDS2017 dataset. This shows the effectiveness of the proposed IDS for cyber-attack detection in both intra-vehicle and external vehicular networks.
 
 ## Implementation 
-### Online Learning/Concept Drift Adaptation Algorithms  
-* Adaptive Random Forest (ARF)
-* Streaming Random Patches (SRP)
-* Extremely Fast Decision Tree (EFDT)
-* Hoeffding Tree (HT)
-* Leveraging Bagging (LB)
-* Performance Weighted Probability Averaging Ensemble (PWPAE)
-  * Proposed Method
+### CNN Models  
+* VGG16
+* VGG19
+* Xception
+* Inception
+* Resnet
+* InceptionResnet
 
-### Drift Detection Algorithms
-* Adaptive Windowing (ADWIN)
-* Drift Detection Method (DDM)
+### Ensemble Learning Models
+* Bagging
+* Probability Averaging
+* Concatenation
+
+### Hyperparameter Optimization Methods
+* Random Search (RS)
+* Bayesian optimization - Tree Parzen Estimator(BO-TPE)
 
 ### Dataset 
-1. IoTID20 dataset, a novel IoT botnet dataset
-   * Publicly available at: https://sites.google.com/view/iot-network-intrusion-dataset/home
+1. CAN-intrusion dataset, a benchmark network security dataset for intra-vehicle intrusion detection
+* Publicly available at: https://ocslab.hksecurity.net/Datasets/CAN-intrusion-dataset  
+* Can be processed using the same code
 
 2. CICIDS2017 dataset, a popular network traffic dataset for intrusion detection problems
-   * Publicly available at: https://www.unb.ca/cic/datasets/ids-2017.html  
+* Publicly available at: https://www.unb.ca/cic/datasets/ids-2017.html  
+* For the purpose of displaying the experimental results in Jupyter Notebook, the sampled subsets of CICIDS2017 is used in the sample code. The subsets are in the "data" folder.
 
-For the purpose of displaying the experimental results in Jupyter Notebook, the sampled subsets of the two datasets are used in the sample code. The subsets are in the "[data](https://github.com/Western-OC2-Lab/PWPAE-Concept-Drift-Detection-and-Adaptation/tree/main/data)" folder.
+
+For the purpose of displaying the experimental results in Jupyter Notebook, the sampled subset of the CAN-intrusion dataset is used in the sample code. The subsets are in the "[data](https://github.com/Western-OC2-Lab/Intrusion-Detection-System-Using-CNN-and-Transfer-Learning/tree/main/data)" folder.
 
 ### Code  
-* [globecom2021_PWPAE_IoTID20.ipynb](https://github.com/Western-OC2-Lab/PWPAE-Concept-Drift-Detection-and-Adaptation/blob/main/globecom2021_PWPAE_IoTID20.ipynb): code for the sampled IoTID20 dataset.  
-* [globecom2021_PWPAE_CICIDS2017.ipynb](https://github.com/Western-OC2-Lab/PWPAE-Concept-Drift-Detection-and-Adaptation/blob/main/globecom2021_PWPAE_CICIDS2017.ipynb): code for the sampled CICIDS2017 dataset.
+* [1-Data_pre-processing_CAN.ipynb](https://github.com/Western-OC2-Lab/Intrusion-Detection-System-Using-CNN-and-Transfer-Learning/blob/main/1-Data_pre-processing_CAN.ipynb): code for data pre-processing and transformation (tabular data to images).  
+* [2-CNN_Model_Development&Hyperparameter Optimization.ipynb](https://github.com/Western-OC2-Lab/Intrusion-Detection-System-Using-CNN-and-Transfer-Learning/blob/main/2-CNN_Model_Development%26Hyperparameter%20Optimization.ipynb): code for the development and CNN models and their hyperparameter optimization.
+* [3-Ensemble_Models-CAN.ipynb](https://github.com/Western-OC2-Lab/Intrusion-Detection-System-Using-CNN-and-Transfer-Learning/blob/main/3-Ensemble_Models-CAN.ipynb): code for the construction of three ensemble learning techniques.
 
 ### Requirements & Libraries  
 * Python 3.5+
 * [Keras 2.1.0](https://scikit-learn.org/stable/)  
 * [Tensorflow 1.10.0](https://lightgbm.readthedocs.io/en/latest/)
+* [OpenCV-python](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)
+* [hyperopt](https://github.com/hyperopt/hyperopt) 
 
 ## Contact-Info
 Please feel free to contact us for any questions or cooperation opportunities. We will be happy to help.
