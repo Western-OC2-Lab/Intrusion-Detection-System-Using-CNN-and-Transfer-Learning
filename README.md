@@ -30,7 +30,7 @@ Modern vehicles, including autonomous vehicles and connected vehicles,  are incr
 
 ### Hyperparameter Optimization Methods
 * Random Search (RS)
-* Bayesian optimization - Tree Parzen Estimator(BO-TPE)
+* Bayesian Optimization - Tree Parzen Estimator(BO-TPE)
 
 ### Dataset 
 1. CAN-intrusion dataset, a benchmark network security dataset for intra-vehicle intrusion detection
