@@ -7,10 +7,6 @@ Organization: The Optimized Computing and Communications (OC2) Lab, ECE Departme
 This repository also introduces **concept drift definitions** and **online machine learning methods** for **data stream analytics** using the **[River](https://riverml.xyz/dev/)** library.  
 Another **tutorial code** for **concept drift, online machine learning, and data stream analytics** can be found in: [OASW-Concept-Drift-Detection-and-Adaptation](https://github.com/Western-OC2-Lab/OASW-Concept-Drift-Detection-and-Adaptation)
 
-<p float="left">
-  <img src="https://github.com/Western-OC2-Lab/PWPAE-Concept-Drift-Detection-and-Adaptation/blob/main/IoTID20.png" width="470" />
-  <img src="https://github.com/Western-OC2-Lab/PWPAE-Concept-Drift-Detection-and-Adaptation/blob/main/CICIDS2017.png" width="470" /> 
-</p>
 
 
 ## Abstract of The Paper
