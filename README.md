@@ -67,7 +67,7 @@ If you find this repository useful in your research, please cite this article as
 L. Yang and A. Shami, "A Transfer Learning and Optimized CNN Based Intrusion Detection System for Internet of Vehicles," in 2022 IEEE International Conference on Communications (ICC), Seoul, South Korea, 2022, pp. 1-6.
 
 ```
-@INPROCEEDINGS{1570723427,
+@INPROCEEDINGS{
   author={Yang, Li and Shami, Abdallah},
   booktitle={2022 IEEE International Conference on Communications (ICC)}, 
   title={A Transfer Learning and Optimized CNN Based Intrusion Detection System for Internet of Vehicles,}, 
