@@ -49,10 +49,10 @@ For the purpose of displaying the experimental results in Jupyter Notebook, the 
 * [2-CNN_Model_Development&Hyperparameter Optimization.ipynb](https://github.com/Western-OC2-Lab/Intrusion-Detection-System-Using-CNN-and-Transfer-Learning/blob/main/2-CNN_Model_Development%26Hyperparameter%20Optimization.ipynb): code for the development and CNN models and their hyperparameter optimization.
 * [3-Ensemble_Models-CAN.ipynb](https://github.com/Western-OC2-Lab/Intrusion-Detection-System-Using-CNN-and-Transfer-Learning/blob/main/3-Ensemble_Models-CAN.ipynb): code for the construction of three ensemble learning techniques.
 
-### Requirements & Libraries  
+Libraries  
 * Python 3.5+
-* [Keras 2.1.0](https://scikit-learn.org/stable/)  
-* [Tensorflow 1.10.0](https://lightgbm.readthedocs.io/en/latest/)
+* [Keras 2.1.0+](https://scikit-learn.org/stable/)  
+* [Tensorflow 1.10.0+](https://lightgbm.readthedocs.io/en/latest/)
 * [OpenCV-python](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)
 * [hyperopt](https://github.com/hyperopt/hyperopt) 
 
