@@ -1,6 +1,6 @@
 # Intrusion-Detection-System-Using-CNN-and-Transfer-Learning
 
-This is the code for the paper entitled "**[A Transfer Learning and Optimized CNN Based Intrusion Detection System for Internet of Vehicles](https://arxiv.org/pdf/2109.05013.pdf)**" accepted in **IEEE International Conference on Communications (IEEE ICC)**.  
+This is the code for the paper entitled "**[A Transfer Learning and Optimized CNN Based Intrusion Detection System for Internet of Vehicles](https://arxiv.org/pdf/2201.11812.pdf)**" accepted in **IEEE International Conference on Communications (IEEE ICC)**.  
 - Authors: Li Yang and Abdallah Shami  
 - Organization: The Optimized Computing and Communications (OC2) Lab, ECE Department, Western University
 
