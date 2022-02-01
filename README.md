@@ -53,8 +53,8 @@ For the purpose of displaying the experimental results in Jupyter Notebook, the 
 
 Libraries  
 * Python 3.5+
-* [Keras 2.1.0+](https://scikit-learn.org/stable/)  
-* [Tensorflow 1.10.0+](https://lightgbm.readthedocs.io/en/latest/)
+* [Keras 2.1.0+](hhttps://keras.io/)  
+* [Tensorflow 1.10.0+](https://www.tensorflow.org/install/gpu)
 * [OpenCV-python](https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html)
 * [hyperopt](https://github.com/hyperopt/hyperopt) 
 
