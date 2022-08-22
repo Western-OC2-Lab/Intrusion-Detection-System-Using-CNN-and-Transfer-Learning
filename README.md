@@ -62,7 +62,7 @@ Libraries
 Please feel free to contact us for any questions or cooperation opportunities. We will be happy to help.
 * Email: [liyanghart@gmail.com](mailto:liyanghart@gmail.com) or [Abdallah.Shami@uwo.ca](mailto:Abdallah.Shami@uwo.ca)
 * GitHub: [LiYangHart](https://github.com/LiYangHart) and [Western OC2 Lab](https://github.com/Western-OC2-Lab/)
-* LinkedIn: [Li Yang](https://www.linkedin.com/in/li-yang-65a190176/)  
+* LinkedIn: [Li Yang](https://www.linkedin.com/in/li-yang-phd-65a190176/)  
 * Google Scholar: [Li Yang](https://scholar.google.com.eg/citations?user=XEfM7bIAAAAJ&hl=en) and [OC2 Lab](https://scholar.google.com.eg/citations?user=oiebNboAAAAJ&hl=en)
 
 ## Citation
