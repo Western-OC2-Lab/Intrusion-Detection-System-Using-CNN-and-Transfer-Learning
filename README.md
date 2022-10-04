@@ -1,6 +1,6 @@
 # Intrusion-Detection-System-Using-CNN-and-Transfer-Learning
 
-This is the code for the paper entitled "**[A Transfer Learning and Optimized CNN Based Intrusion Detection System for Internet of Vehicles](https://arxiv.org/pdf/2201.11812.pdf)**" published in **IEEE International Conference on Communications (IEEE ICC)**, doi=[10.1109/ICC45855.2022.9838780](https://ieeexplore.ieee.org/document/9838780).  
+This is the code for the paper entitled "**[A Transfer Learning and Optimized CNN Based Intrusion Detection System for Internet of Vehicles](https://arxiv.org/pdf/2201.11812.pdf)**" published in **IEEE International Conference on Communications (IEEE ICC)**, doi: [10.1109/ICC45855.2022.9838780](https://ieeexplore.ieee.org/document/9838780).  
 - Authors: Li Yang and Abdallah Shami  
 - Organization: The Optimized Computing and Communications (OC2) Lab, ECE Department, Western University
 
@@ -68,15 +68,14 @@ Please feel free to contact us for any questions or cooperation opportunities. W
 ## Citation
 If you find this repository useful in your research, please cite this article as:  
 
-L. Yang and A. Shami, "A Transfer Learning and Optimized CNN Based Intrusion Detection System for Internet of Vehicles," in 2022 IEEE International Conference on Communications (ICC), Seoul, South Korea, 2022, pp. 1-6.
+L. Yang and A. Shami, "A Transfer Learning and Optimized CNN Based Intrusion Detection System for Internet of Vehicles," ICC 2022 - IEEE International Conference on Communications, 2022, pp. 2774-2779, doi: 10.1109/ICC45855.2022.9838780.
 
 ```
-@INPROCEEDINGS{
+@INPROCEEDINGS{9838780,
   author={Yang, Li and Shami, Abdallah},
-  booktitle={2022 IEEE International Conference on Communications (ICC)}, 
-  title={A Transfer Learning and Optimized CNN Based Intrusion Detection System for Internet of Vehicles,}, 
+  booktitle={ICC 2022 - IEEE International Conference on Communications}, 
+  title={A Transfer Learning and Optimized CNN Based Intrusion Detection System for Internet of Vehicles}, 
   year={2022},
-  pages={1-6},
-  doi={10.1109/ICC45855.2022.9838780}
-  }
+  pages={2774-2779},
+  doi={10.1109/ICC45855.2022.9838780}}
 ```
